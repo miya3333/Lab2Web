@@ -31,7 +31,7 @@ Project Link: [Praktikum 2](https://miya3333.github.io/Lab2Web/)
    > Hasil: <br>
    > <img src="file/3 result.png" alt="jawaban 4">
    
-4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! (<p id="paragraf-1" class="text-paragraf">); <br>
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! (&lt;p id="paragraf-1" class="text-paragraf"&gt;); <br>
    > Jawaban: <br>
    > Deklarasi yang tampil adalah ID, karena ID memiliki nilai yang harus unik dan tidak boleh sama dengan yang lain. Oleh sebab itu prioritasnya lebih tinggi dibanding Class. <br><br>
    > Bisa dilihat dari contoh h1 ID dan Class. Yang tampil adalah warna dari ID. <br>
