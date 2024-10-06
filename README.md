@@ -23,15 +23,18 @@ Project Link: [Praktikum 2](https://miya3333.github.io/Lab2Web/)
    
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! <br>
    > Jawaban: <br>
+   > Deklarasi yang tampil adalah inline CSS. Karena memiliki prioritas tertinggi, jika inline CSS tidak ada maka internal CSS memiliki prioritas lebih tinggi dari pada eksternal CSS. <br><br>
+   > Bisa dilihat dari contoh Inline CSS, Internal CSS dan Eksternal CSS. Mereka memiliki warna yang berbeda karena deklarasi CSS yang berbeda pula. <br>
    > <img src="file/3 code1.png" alt="jawaban 4"> <br>
    > <img src="file/3 code2.png" alt="jawaban 4"> <br>
    > 
    > Hasil: <br>
    > <img src="file/3 result.png" alt="jawaban 4">
-   > 
    
-4. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini. <br>
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! (<p id="paragraf-1" class="text-paragraf">); <br>
    > Jawaban: <br>
+   > Deklarasi yang tampil adalah ID, karena ID memiliki nilai yang harus unik dan tidak boleh sama dengan yang lain. Oleh sebab itu prioritasnya lebih tinggi dibanding Class. <br><br>
+   > Bisa dilihat dari contoh h1 ID dan Class. Yang tampil adalah warna dari ID. <br>
    > <img src="file/4 code1.png" alt="jawaban 4"> <br>
    > <img src="file/4 code2.png" alt="jawaban 4"> <br><br>
    > Hasil: <br>
