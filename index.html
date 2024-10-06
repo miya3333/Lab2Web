@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawaban Soal Modul Praktikum Pemrograman Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="frame">
+        <iframe src="file/before.html"></iframe>
+        <iframe src="file/after.html"></iframe>
+    </div>
+
+    <h1>Pertanyaan dan Tugas</h1>
+    <h4 class="cred">Untuk melihat hasil dan jawaban dari pertanyaan dibawah, bisa dilihat dari tampilan diatas sebelah kanan.</h4>
+
+    <main>
+        <div class="que">
+            <div class="no">1.</div>
+            <div>
+                <div>
+                    Lakukan  eksperimen  dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+                </div> <br>
+                <div>
+                    <b>Jawab:</b> <br>
+                    Dengan menonaktifkan <code class="cred">padding</code> lalu menambahkan property <code class="cred">display</code> dan value <code class="cred">flex</code>, maka navbar berada ditengah. <br>
+                    <img src="file/1 code1.png" alt="code" style="width: auto;">
+                    <br><br>
+
+                    Dan dengan menambahkan property <code class="cred">border-radius</code> dan value <code class="cred">10px</code>, maka sudut di tombol merah menjadi melengkung. <br>
+                    <img src="file/1 code2.png" alt="code" style="width: auto;">
+                </div>
+            </div>
+        </div>
+        <div class="que">
+            <div class="no">2.</div>
+            <div>
+                <div>
+                    Apa perbedaan pendeklarasian CSS elemen <code class="cred">h1 {...}</code> dengan <code class="cred">#intro h1 {...}</code>? berikan penjelasannya!
+                </div> <br>
+                <div>
+                    <b>Jawab:</b> <br>
+                    Dengan menambahkan <code class="cred">h1</code> lagi dibawahnya. Maka akan terlihat jelas, kalau <code class="cred"">#intro h1</code> akan mengikuti <code class="cred">style</code> Hello World yang berada dibawah navbar, dengan tambahan <code class="cred">background-color</code>. <br>
+                    <img src="file/2 result.png" alt="code" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+        <div class="que">
+            <div class="no">3.</div>
+            <div>
+                <div>
+                    Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+                </div> <br>
+                <div>
+                    <b>Jawab:</b> <br>
+                    Deklarasi yang tampil adalah <code class="cred">inline CSS</code>. Karena memiliki prioritas tertinggi, jika inline CSS tidak ada maka <code class="cred">internal CSS</code> memiliki prioritas lebih tinggi dari pada <code class="cred">eksternal CSS</code>.
+                    <br><br>
+                    Bisa dilihat dari contoh <code class="cred">Inline CSS</code>, <code class="cblu">Internal CSS</code> dan <code class="cgre">Eksternal CSS</code>. Mereka memiliki warna yang berbeda karena deklarasi CSS yang berbeda pula. <br>
+                    <img src="file/3 code1.png" alt="code" style="width: 100%;"> <br>
+                    <img src="file/3 code2.png" alt="code" style="width: auto;">
+                </div>
+            </div>
+        </div>
+        <div class="que">
+            <div class="no">4.</div>
+            <div>
+                <div>
+                    Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+                    <code>
+                        <span class="cblu">(&lt;</span><span class="cgre">p</span> <span class="cred">id</span><span class="cblu">="paragraf-1"</span> <span class="cred">class</span><span class="cblu">="text-paragraf"&gt;)</span>;
+                    </code>
+                </div> <br>
+                <div>
+                    <b>Jawab:</b> <br> 
+                    Deklarasi yang tampil adalah <code class="cred">ID</code>, karena <code class="cred">ID</code> memiliki nilai yang harus unik dan tidak boleh sama dengan yang lain. Oleh sebab itu prioritasnya lebih tinggi dibanding <code class="cred">Class</code>.
+                    <br><br>
+                    Bisa dilihat dari contoh <code class="cred">h1</code> <code class="cyel">ID dan Class</code>. Yang tampil adalah warna dari <code class="cred">ID</code>. <br>
+                    <img src="file/4 code1.png" alt="code" style="width: 100%;"> <br>
+                    <img src="file/4 code2.png" alt="code" style="width: auto;">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aldi Hermansyah - 312310200 - Ti.23.A2.</p>
+    </footer>
+</body>
+</html>
